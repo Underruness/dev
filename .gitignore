@@ -1,0 +1,12 @@
+# data / checkpoints / logs are reproducible or machine specific
+data/
+*.parquet
+*.part
+logs/samples/
+checkpoints/*.tmp
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+*.onnx.data
