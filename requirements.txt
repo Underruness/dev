@@ -1,0 +1,11 @@
+# core
+torch>=2.2          # CPU wheel is enough to train; CUDA wheel if you have a GPU
+numpy>=1.26
+pillow>=10.0
+pyarrow>=15.0       # Vimeo-90K parquet shards
+
+# export / quantization
+onnx>=1.16
+onnxruntime>=1.18
+onnxconverter-common>=1.14
+onnxscript>=0.1     # required by torch.onnx (dynamo) exporter in torch >= 2.5
